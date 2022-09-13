@@ -1,0 +1,11 @@
+Por lo pronto la idea es ordenar todos los archivos y entender como funciona el algoritmo
+Estoy tratando de separar todo segun si trata de clusterear trials o sensores. Le pongo el nombre de la carpeta o la ubicacion que tiene en el droppox pero tener bien claro cual de esas dos opciones esta haciendo
+
+
+No se entienden algunos datos. Cuales son los trials, cuales son sensoresm etc.
+
+Folders:
+
+Local_global_SEEG ??? No tiene un clustering_tray_data
+
+Trajectories Clustering / Pablo ??? No se entiendo que son los datos

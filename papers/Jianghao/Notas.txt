@@ -1,0 +1,68 @@
+--INTRODUCCIÓN--
+
+Distintas teorías de consciencia le dan diferentes roles a las redes neuronales fronto-parietales durante la percepción consciente. 
+
+-Recurrent network processing sostiene que la experiencia emerge de la actividad reverberante en áreas sensoriales
+-Integrated information theory postula la información se integra en una "zona caliente" temporo-parietal-occipital
+
+Estas dos consideran que el prefrontal cortex (PFC) no forma a la experiencia en sí, si no al reporte post cognitivo. 
+
+-Global neural workspace dice que la ignición de una red no-lineal amplifica y sostiene información donde PFC y parietal inferior tienen relevancia. 
+
+Preguntas realizadas:
+
+- Cómo interactúa la actividad en ventral y dorsal FP con la percepción consciente durante orientaciones externas de atención
+
+-Qué pasa en el cerebro cuando se reourienta la atención para percibir targets no atendidos
+
+-Es posible determinar el rol de PFC en orientación atencional, working memory o toma de desiciones?
+
+
+
+--RESULTADOS--
+
+ * Experimento y comportamiento
+
+Se graban con 727 electrodos intracerebrales en 13 pacientes. 
+La tarea es detectar targets near-threshhold (Gabor pathces) inclinados a la derecha o ala iszquieda, presentados a la izquierda o a la derecha de un punto de fijación. 
+El target era precedido por una cue periferal por encima del threshold, que aparecía en el mismo lado del target a venir( Valid cues ), o en el lado opuesto (Invalid cues).
+Todas las condiciones (Target side, cue validity) eran mezcladas aleatoriamente, con 20% solo cue donde no había target.
+Tenían que discriminar la dirección del tilting y reportar la presencia o ausencia de ls gabors.
+
+El análsis de comportamiento indicó que la dirección se determinaba mejor si se había visto el target. Los validly cued targets eran más probables de ser reportados. 
+
+* CLusters asociados con perceived targets
+
+Se preprocesa el EEG extrayendo el High frequency broadband power, 70-140hz que es un proxy de actividad neuronal. Se promedia el resultado entre todas las condiciones experimentales (8 = 2*2*2). Los datos entonces son de dimensión 8xtiempox727. Ya que para cada electrodo se tiene el promedio dio de todos los trials de cada experimento a lo largo de la sesión.
+
+Luego se clusteriza los contactos para identificar los principales que llevan cue validity y conscious report. 
+Al usar este método se pudo agrupar contactos basados en un perfil temporal de actividad neuronal a través de todas las condiciones experimentales. 
+
+Se usa un k=10 y se hizo un three-way anova durante el cue y despues del target, con los factores del Lado del Target, Validez, y Reporte consciente. 5 de 10 mostraron tener un efecto en reporte consciente
+
+?? NO ME QUEDA CLARO EL ANOVA. SE ELIGE UNA DE LAS CONDICIONES Y SE VE SI LA DIFERNECIA DENTRO DE LOS CLUSTERS ??
+
+* Interacción entre atención y reporte revela 3 patrones neuronales
+
+Se observa la interacción entre cue validity y reporte consciente en el ANOVA. Se ve un patrón en 3 de los 5 casos con reporte consciente. Se ve un mejor reporte consciente con cue valida, comparado con inválidas. Un 4to cluster mostraba mayor actividad cuando detectaba el target despues de una cue invalida. Sostenía la actividad sólo para targets vistos. Para targets vistos con la cue corecta en cambio, decrementaba. El 5to cluster sostenía la actividad al ver los targets sin importar el cue. 
+
+?? Después hizo un análisis según el response time para hacer el correlato entre los clusters y la conducta pero no lo entendí. También hubo más análisis de los patrones neuronales ??
+
+* Materia blanca localiza los contactos conectadas en el hemisferio derecho
+
+Hiceron tractografía de materia planca asociado con mapas de probabilidad de 176 sujetos sanos del Human Connectome database. LA conclusión es que los clusters se mapean a redes anatomico-funcionales preexistentes. Exceptuando visual y consiousness cluster
+
+* Modelado con redes recurrentes
+
+Se usó una red neuronal recurrente para ver la relacioón enntre las dinámicas de actividad y el comportamiento. Se modeló de manera separada el estímulo izquierdo y derecho como señales de ruido. El modelo era una capa de 50 neuronas conectadas entre sí, 80% excitatoria y 20% inhibitoria. La red produce dos slidas para indicar la presencia o no del target. 
+
+El modelo era distinto de una no entrenado. Hubo un punto de contraste que se halló a partir del cual se podía realizar la tarea. Había diferencia entre trials validos e invlalidos solo para contraste intermedio y alto, asi que se mantuvo en intermedio correspondiendo al punto cerca del limite de la tarea en humanos
+
+Aplicando el mismo clustering, se hallaron 5 clusters estables. 4 tenían mayor actividad para targets vistos que para no vistos. Similarmente había actividad temprana en el cluster visual, después en el sustained y otro en el Late. 
+
+** Paré un poco porque parecía interesante, medio un montón pero en definitiva nada que ver con el clustering algorithm **
+
+--DISCUSIÓN--
+
+Se encuentran tres patrones de actividad neuronal que vinculan la orientación del estímulo externo con la percepción consciente. Uno Cluster de sostenidmiento que muestra mayor actvidad para validly cued targets, Otro de Late accumalation que incrementa la actividad hasta el reporte, y final mente uno de Reoientación que muestra actividad temprana como respuesta a invalidly cued targets.
+Los resultados muestran que la atención exógena modula la percepción consciente. Además se muestra evidencia que las dorsolaterales PFC, IFG, OFC tienen un rol en el procesamiento consciente. 

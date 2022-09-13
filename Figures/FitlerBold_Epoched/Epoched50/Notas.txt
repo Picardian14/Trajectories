@@ -1,0 +1,190 @@
+
+
+
+* 50 epoch 15 PC
+
+The main difference here is that know we only have 2 clusters that are quite separate and neither has the spike that there was with longer versions. This sustains even if its clustered with k=4 
+
+
+
+
+Distance min:257646.424
+Silhouette for 2 clusters
+Clust 1 score: 0.36573// #Elements: 104
+Clust 2 score: 0.36076// #Elements: 16
+Clust Overall score: 0.36324
+Distance min:245850.1308
+Silhouette for 3 clusters
+Clust 1 score: 0.26275// #Elements: 16
+Clust 2 score: 0.28661// #Elements: 88
+Clust 3 score: 0.29333// #Elements: 16
+Clust Overall score: 0.2809
+Distance min:238062.706
+Silhouette for 4 clusters
+Clust 1 score: 0.11752// #Elements: 48
+Clust 2 score: 0.17012// #Elements: 16
+Clust 3 score: 0.19038// #Elements: 8
+Clust 4 score: 0.14925// #Elements: 48
+Clust Overall score: 0.15682
+Distance min:232011.4081
+Silhouette for 5 clusters
+Clust 1 score: 1// #Elements: 1
+Clust 2 score: 0.13801// #Elements: 42
+Clust 3 score: 0.14899// #Elements: 53
+Clust 4 score: 0.18621// #Elements: 8
+Clust 5 score: 0.19391// #Elements: 16
+Clust Overall score: 0.33342
+Distance min:227612.6285
+Silhouette for 6 clusters
+Clust 1 score: 0.14866// #Elements: 54
+Clust 2 score: 0.16405// #Elements: 1
+Clust 3 score: 0.18469// #Elements: 8
+Clust 4 score: 0.17019// #Elements: 8
+Clust 5 score: 0.16704// #Elements: 8
+Clust 6 score: 0.14013// #Elements: 41
+Clust Overall score: 0.16246
+Distance min:224581.6273
+Silhouette for 7 clusters
+Clust 1 score: 0.44245// #Elements: 8
+Clust 2 score: 0.15542// #Elements: 45
+Clust 3 score: 0.12275// #Elements: 45
+Clust 4 score: 0.15799// #Elements: 8
+Clust 5 score: 0.17062// #Elements: 1
+Clust 6 score: 0.17062// #Elements: 1
+Clust 7 score: 0.14391// #Elements: 12
+Clust Overall score: 0.19482
+Distance min:221417.7476
+Silhouette for 8 clusters
+Clust 1 score: 0.43741// #Elements: 8
+Clust 2 score: 0.31746// #Elements: 8
+Clust 3 score: 0.11951// #Elements: 41
+Clust 4 score: 0.15985// #Elements: 8
+Clust 5 score: 0.17603// #Elements: 1
+Clust 6 score: 0.11161// #Elements: 23
+Clust 7 score: 0.10557// #Elements: 30
+Clust 8 score: 0.1276// #Elements: 1
+Clust Overall score: 0.19438
+Distance min:219198.7194
+Silhouette for 9 clusters
+Clust 1 score: 0.14342// #Elements: 47
+Clust 2 score: 0.17583// #Elements: 8
+Clust 3 score: 0.16967// #Elements: 8
+Clust 4 score: 0.18241// #Elements: 1
+Clust 5 score: 0.14406// #Elements: 6
+Clust 6 score: 0.1699// #Elements: 8
+Clust 7 score: 0.11666// #Elements: 35
+Clust 8 score: 0.13476// #Elements: 1
+Clust 9 score: 0.12623// #Elements: 6
+Clust Overall score: 0.15144
+Distance min:216153.0376
+Silhouette for 10 clusters
+Clust 1 score: 0.15755// #Elements: 45
+Clust 2 score: 0.11913// #Elements: 31
+Clust 3 score: 0.15589// #Elements: 8
+Clust 4 score: 0.1692// #Elements: 1
+Clust 5 score: 0.15412// #Elements: 8
+Clust 6 score: 0.16938// #Elements: 1
+Clust 7 score: 0.16938// #Elements: 1
+Clust 8 score: 0.16782// #Elements: 8
+Clust 9 score: 0.1651// #Elements: 2
+Clust 10 score: 0.1237// #Elements: 15
+Clust Overall score: 0.15513
+Distance min:212915.1556
+Silhouette for 11 clusters
+Clust 1 score: 0.13471// #Elements: 15
+Clust 2 score: 0.18673// #Elements: 1
+Clust 3 score: 0.18673// #Elements: 1
+Clust 4 score: 0.18673// #Elements: 1
+Clust 5 score: 0.1381// #Elements: 36
+Clust 6 score: 0.16065// #Elements: 1
+Clust 7 score: 0.17474// #Elements: 8
+Clust 8 score: 0.1751// #Elements: 8
+Clust 9 score: 0.19174// #Elements: 1
+Clust 10 score: 0.18772// #Elements: 8
+Clust 11 score: 0.098591// #Elements: 40
+Clust Overall score: 0.16559
+Distance min:211507.6096
+Silhouette for 12 clusters
+Clust 1 score: 0.33128// #Elements: 8
+Clust 2 score: 0.41419// #Elements: 1
+Clust 3 score: 0.42303// #Elements: 8
+Clust 4 score: 0.1589// #Elements: 7
+Clust 5 score: 0.2653// #Elements: 1
+Clust 6 score: 0.2653// #Elements: 1
+Clust 7 score: 0.15901// #Elements: 48
+Clust 8 score: 0.13411// #Elements: 35
+Clust 9 score: 0.15419// #Elements: 1
+Clust 10 score: 0.15419// #Elements: 1
+Clust 11 score: 0.15419// #Elements: 1
+Clust 12 score: 0.16725// #Elements: 8
+Clust Overall score: 0.23174
+Distance min:208416.2903
+Silhouette for 13 clusters
+Clust 1 score: 1// #Elements: 1
+Clust 2 score: 1// #Elements: 1
+Clust 3 score: 1// #Elements: 1
+Clust 4 score: 1// #Elements: 1
+Clust 5 score: 1// #Elements: 1
+Clust 6 score: 0.14239// #Elements: 37
+Clust 7 score: 0.14634// #Elements: 52
+Clust 8 score: 0.1624// #Elements: 1
+Clust 9 score: 0.1672// #Elements: 7
+Clust 10 score: 0.17836// #Elements: 1
+Clust 11 score: 0.17836// #Elements: 1
+Clust 12 score: 0.18468// #Elements: 8
+Clust 13 score: 0.17031// #Elements: 8
+Clust Overall score: 0.48693
+Distance min:205138.4003
+Silhouette for 14 clusters
+Clust 1 score: 0.12179// #Elements: 20
+Clust 2 score: 0.085508// #Elements: 46
+Clust 3 score: 0.10444// #Elements: 22
+Clust 4 score: 0.12277// #Elements: 1
+Clust 5 score: 0.12277// #Elements: 1
+Clust 6 score: 0.12277// #Elements: 1
+Clust 7 score: 0.12277// #Elements: 1
+Clust 8 score: 0.12277// #Elements: 1
+Clust 9 score: 0.11636// #Elements: 2
+Clust 10 score: 0.12893// #Elements: 1
+Clust 11 score: 0.13629// #Elements: 8
+Clust 12 score: 0.1409// #Elements: 8
+Clust 13 score: 0.15436// #Elements: 7
+Clust 14 score: 0.1658// #Elements: 1
+Clust Overall score: 0.1263
+Distance min:203140.2612
+Silhouette for 15 clusters
+Clust 1 score: 0.15344// #Elements: 46
+Clust 2 score: 0.17113// #Elements: 1
+Clust 3 score: 0.17113// #Elements: 1
+Clust 4 score: 0.17113// #Elements: 1
+Clust 5 score: 0.14138// #Elements: 38
+Clust 6 score: 0.16011// #Elements: 1
+Clust 7 score: 0.18827// #Elements: 8
+Clust 8 score: 0.19926// #Elements: 1
+Clust 9 score: 0.17324// #Elements: 8
+Clust 10 score: 0.17144// #Elements: 8
+Clust 11 score: 0.18446// #Elements: 1
+Clust 12 score: 0.17072// #Elements: 3
+Clust 13 score: 0.18483// #Elements: 1
+Clust 14 score: 0.18483// #Elements: 1
+Clust 15 score: 0.18483// #Elements: 1
+Clust Overall score: 0.17401
+Distance min:200728.8954
+Silhouette for 16 clusters
+Clust 1 score: 0.33759// #Elements: 8
+Clust 2 score: 0.43764// #Elements: 8
+Clust 3 score: 0.50089// #Elements: 1
+Clust 4 score: 0.50089// #Elements: 1
+Clust 5 score: 0.50089// #Elements: 1
+Clust 6 score: 0.50089// #Elements: 1
+Clust 7 score: 0.50089// #Elements: 1
+Clust 8 score: 0.50089// #Elements: 1
+Clust 9 score: 0.15013// #Elements: 37
+Clust 10 score: 0.17235// #Elements: 1
+Clust 11 score: 0.15431// #Elements: 2
+Clust 12 score: 0.17998// #Elements: 1
+Clust 13 score: 0.18484// #Elements: 8
+Clust 14 score: 0.20103// #Elements: 1
+Clust 15 score: 0.16506// #Elements: 47
+Clust 16 score: 0.18285// #Elements: 1
+Clust Overall score: 0.3232
